@@ -3,3 +3,7 @@ function paragraphSelector() {
  var para = $('p')
  return para
 }
+
+function lastImageSelector() {
+  return $('div img:last-child')
+}
